@@ -126,7 +126,7 @@ Alter Column First_Name set NOT NULL;```
 (8, 'Ava', 'Martinez', 'Physics', 'ava.martinez@mail.com', '2024-01-20'),
 (9, 'Liam', 'Garcia', 'Biology', 'liam.garcia@mail.com', '2024-02-01'),
 (10, 'Isabella', 'Lee', 'Chemistry', 'isabella.lee@mail.com', '2024-02-05');```
-```SELECT * FROM Students;```
+SELECT * FROM Students;```
 --create course Table 
 ```CREATE TABLE Courses(
     Course_ID INT PRIMARY KEY,
@@ -177,8 +177,8 @@ SELECT * FROM Enrollment;```
 ```DROP TABLE IF EXISTS Enrollment;```
 ---Recreate the Enrollment table 
 
-```UPDATE Students
-SET Major = 'Data Science'
+UPDATE Students
+```SET Major = 'Data Science'
 WHERE Major = 'English';
 SELECT * FROM Students;```
 
